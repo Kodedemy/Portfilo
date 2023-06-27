@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-image: url(img/BANNER.png);
+    background-image: url(img/Vector\ Smart\ Object.svg);
     width: 100%;
     height: 625px;
     background-size: cover;
@@ -108,22 +108,33 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 150px;
+    padding-top: 130px;
 }
 .nav-text h1{
-    font-family: Quicksand;
-    font-size: 95px;
+    font-family:Quicksand;
+    font-size: 120px;
     font-weight: 900;
     color: #ffffff;
+    text-shadow: 8px 8px 1px rgba(253, 253, 253, 0.11);
+    line-height: 130px;
 }
 .nav-text p{
     font-family: Quicksand;
     font-size: 25px;
     font-weight: 600;
     color: #ffffff;
-    margin-left: -90px;
+    margin-left: -50px;
+    line-height: 30px;
 }
 
+.circle{
+    background-color: #fed257;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    margin-bottom: 180px;
+    margin-left: -120px;
+}
 .sec2 {
     display: flex;
     justify-content: center;
