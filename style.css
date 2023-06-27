@@ -208,6 +208,10 @@ a {
     font-weight: 600;
 }
 
+.sec2-btn2 :hover{
+    background-color: #fed257;
+    transition: transform .5s ease;
+}
 
 .sec3-card {
     display: flex;
@@ -636,7 +640,7 @@ a {
 
 .image-67A {
     margin-top: 270px;
-    margin-left: -360px;
+    margin-left: -350px;
     display: flex;
 }
 
@@ -685,6 +689,119 @@ a {
     margin-right: 80px;
 }
 
+
+.con {
+    display: flex;
+}
+
+.con-img {
+    border: #fed157 3px solid;
+    border-radius: 90px;
+    background-color: #101326;
+    width: 28px;
+    height: 25px;
+    text-align: center;
+    padding-top: 2px;
+}
+
+.con-txt p {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 0px 20px;
+}
+
+.con1 {
+    display: flex;
+    margin-top: 50px;
+}
+
+.con1-img {
+    border: #fed157 3px solid;
+    border-radius: 50px;
+    background-color: #101326;
+    width: 28px;
+    height: 25px;
+    padding-top: 3px;
+    text-align: center;
+
+}
+
+.con1-txt p {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 0px 20px;
+}
+
+.input1a {
+    margin-left: 20px;
+}
+
+.con-inp {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.input-1 input {
+    background: none;
+    border: #8080808f solid 1px;
+    width: 250px;
+    height: 35px;
+    color: #ffffff;
+
+}
+
+.input-2 input {
+    background: none;
+    border: #8080808f solid 1px;
+    width: 526px;
+    height: 150px;
+    margin-top: 20px;
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+.CON-btn {
+    text-align: center;
+    margin-top: 40px;
+    margin-right: 95px;
+}
+
+.CON-btn button {
+    border: none;
+    background-color: #fed257;
+    width: 190px;
+    height: 35px;
+    border-radius: 20px;
+
+}
+
+.CON-btn button a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 90px;
+    background-color: #21214763;
+}
+
+.con-txt1 p {
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.icons {
+    align-items: center;
+}
 
 
 
