@@ -56,6 +56,9 @@ a {
     transition: 0.7s ease;
     color: #ffffff;
 }
+.nav-links:hover{
+    color: #fed257;
+}
 
 .hambuger {
     display: none;
@@ -68,6 +71,9 @@ a {
     border-radius: 10px;
     font-weight: 500;
     transition: 0.7s ease-in-out;
+}
+.btn1:hover{
+    color: #212147;
 }
 
 .bar {
@@ -689,19 +695,29 @@ a {
     margin-right: 80px;
 }
 
+.carousel{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.carousel-inner{
+    text-align: center;
+}
+
+.carousel-caption h5{
+    margin-top: 180px;
+}
+
+.bootstrap-txt h5{
+    color: #ffffff;
+}
+.bootstrap-txt p{
+    color: #ffffff;
+    margin-bottom: 20px;
+}
 
 .con {
     display: flex;
-}
-
-.con-img {
-    border: #fed157 3px solid;
-    border-radius: 90px;
-    background-color: #101326;
-    width: 28px;
-    height: 25px;
-    text-align: center;
-    padding-top: 2px;
 }
 
 .con-txt p {
@@ -719,12 +735,11 @@ a {
 .con1-img {
     border: #fed157 3px solid;
     border-radius: 50px;
-    background-color: #101326;
-    width: 28px;
-    height: 25px;
-    padding-top: 3px;
+    width: 30px;
+    color: #ffffff;
+    height: 30px;
+    padding-top: 2px;
     text-align: center;
-
 }
 
 .con1-txt p {
@@ -747,17 +762,16 @@ a {
 .input-1 input {
     background: none;
     border: #8080808f solid 1px;
-    width: 250px;
+    width: 200px;
     height: 35px;
     color: #ffffff;
 
 }
 
-.input-2 input {
+.input-2  textarea{
     background: none;
-    border: #8080808f solid 1px;
-    width: 526px;
-    height: 150px;
+    width: 423px;
+    height: 230px;
     margin-top: 20px;
     color: #ffffff;
     padding-left: 10px;
@@ -766,13 +780,12 @@ a {
 .CON-btn {
     text-align: center;
     margin-top: 40px;
-    margin-right: 95px;
 }
 
 .CON-btn button {
     border: none;
     background-color: #fed257;
-    width: 190px;
+    width: 150px;
     height: 35px;
     border-radius: 20px;
 
@@ -797,12 +810,21 @@ a {
     color: #ffffff;
     font-size: 11px;
     font-weight: 300;
+    padding-top: 10px;
 }
 
 .icons {
     align-items: center;
 }
-
+.fa-brands{
+    color: #ffffff;
+}
+.fa-brands:hover{
+    color: #fed157;
+}
+.icons a{
+    padding: 0px 5px;
+}
 
 
 
